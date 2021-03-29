@@ -13,7 +13,7 @@ public class Vectors {
 
         double avg = 0;
         double sum=0;
-        for (int i = 0; i<n; i++){
+        for (int i = 0; i < vect.length; i++){
             System.out.printf("Enter the %d value: ",i + 1);
             vect[i] = sc.nextDouble();
             sum += vect[i];
