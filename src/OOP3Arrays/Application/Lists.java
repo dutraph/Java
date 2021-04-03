@@ -35,7 +35,7 @@ public class Lists {
         System.out.println(strList.indexOf("Judith")); //will return -1 because it doesn't exist
 
         //Filter all names starting with P
-        List<String> result = strList.stream().filter(x -> x.charAt(0) == 'P').collect(Collectors.toList()); // Convert strList to strem and then convert back to list (WTF???)
+        List<String> result = strList.stream().filter(x -> x.charAt(0) == 'P').collect(Collectors.toList()); // Convert strList to stream and then convert back to list (WTF???)
         System.out.println(result);
 
         //Find first element starting with F
