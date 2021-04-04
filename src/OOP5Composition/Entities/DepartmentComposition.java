@@ -1,4 +1,4 @@
-package OOP4Enum.Entities;
+package OOP5Composition.Entities;
 
 public class DepartmentComposition {
     private String name;

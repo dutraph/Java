@@ -1,4 +1,4 @@
-package OOP4Enum.Entities.Enums;
+package OOP5Composition.Entities.Enums;
 
 public enum WorkerLevelComposition {
     JUNIOR,

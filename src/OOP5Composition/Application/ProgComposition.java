@@ -1,20 +1,18 @@
-package OOP4Enum.Application;
+package OOP5Composition.Application;
 
-import OOP4Enum.Entities.DepartmentComposition;
-import OOP4Enum.Entities.Enums.WorkerLevelComposition;
-import OOP4Enum.Entities.HourContractComposition;
-import OOP4Enum.Entities.WorkerComposition;
+import OOP5Composition.Entities.DepartmentComposition;
+import OOP5Composition.Entities.Enums.WorkerLevelComposition;
+import OOP5Composition.Entities.HourContractComposition;
+import OOP5Composition.Entities.WorkerComposition;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
 import java.util.*;
 
 public class ProgComposition {
     public static void main(String[] args) throws ParseException {
 
         Scanner sc = new Scanner(System.in);
-        Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         WorkerComposition worker;
 
@@ -56,5 +54,6 @@ public class ProgComposition {
         System.out.println(worker);
         System.out.println("Income for " + monthYear + ": " + worker.income(year, month));
 
+        sc.close();
     }
 }

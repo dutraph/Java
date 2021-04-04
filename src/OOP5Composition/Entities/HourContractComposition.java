@@ -1,4 +1,4 @@
-package OOP4Enum.Entities;
+package OOP5Composition.Entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

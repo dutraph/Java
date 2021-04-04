@@ -1,6 +1,6 @@
-package OOP4Enum.Entities;
+package OOP5Composition.Entities;
 
-import OOP4Enum.Entities.Enums.WorkerLevelComposition;
+import OOP5Composition.Entities.Enums.WorkerLevelComposition;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
